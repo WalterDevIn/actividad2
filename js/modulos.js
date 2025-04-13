@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
   `;
 
   document.querySelector("footer").innerHTML = `
-    <p>Copyright(c) 2025 y demas</p>
+    <p>Footer | Copyright(c) 2025</p>
     <div class="redes">
       <a href="#"><i class="fa-solid fa-instagram"></i></a>
       <a href="#"><i class="fa-solid fa-facebook"></i></a>

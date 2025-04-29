@@ -1,0 +1,49 @@
+@import(./variables.css);
+
+nav {
+    background-color: var(--primario);
+    width: 100%;
+    height: 108px;
+    display: flex;
+    padding: 0 var(--relleno-lateral);
+}
+
+nav * {
+    border: 1px solid #333;
+}
+
+nav div {
+    display: flex;
+}
+
+ul {
+    margin: 0;
+    display: flex;
+    gap: 24px;
+    padding: 0 24px;
+}
+
+li {
+    list-style: none;
+    heigth: 100%;
+}
+
+a {
+    text-align: center;
+    padding: 0 36px;
+    heigth: 100%;
+}
+
+
+
+/*
+@media () {
+    :root {
+        --relleno-lateral: 12px;
+    }
+
+    nav {
+    
+    }
+}
+*/

@@ -2,13 +2,16 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelector("nav").innerHTML = `
     <img src="#" alt="Logo">
-    <div>
-      <ul>
-        <li><a href="index.html">inicio</a></li>
-        <li><a href="pizzas.html">pizzas</a></li>
-        <li><a href="contacto.html">contacto</a></li>
-      </ul>
-      <a href="#" class="ordenar">Boton Ordenar</a>
+    <div class="menu">
+        <div class="toggle"></div>
+        <div class="menu-content">
+            <ul>
+                <li><a href="index.html">inicio</a></li>
+                <li><a href="pizzas.html">pizzas</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul>
+            <a href="#" class="ordenar">Boton Ordenar</a>
+        </div>
     </div>
   `;
 

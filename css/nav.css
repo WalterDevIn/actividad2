@@ -3,37 +3,58 @@
 nav {
     background-color: var(--primario);
     width: 100%;
-    height: 108px;
+    height: 72px;
     display: flex;
-    padding: 0 var(--relleno-lateral);
-}
+    justify-content: space-between;
+    padding: 0 60px;
+    box-sizing: border-box;
+    
+    & * {
+        background-color: #eef3; 
+    }
 
-nav * {
-    border: 1px solid #333;
-}
+    & .menu {
+        display: flex;
+    }
 
-nav div {
-    display: flex;
-}
+    & .toggle {
+    }
 
-ul {
-    margin: 0;
-    display: flex;
-    gap: 24px;
-    padding: 0 24px;
-}
+    & div.menu-content {
+        display: none;
+    }
 
-li {
-    list-style: none;
-    heigth: 100%;
-}
+    &:hover div.menu-content {
+        display: flow-root;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        width: 100vw;
+    }
 
-a {
-    text-align: center;
-    padding: 0 36px;
-    heigth: 100%;
-}
+    & ul {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 0 12px;
+    }
 
+    & li {
+        list-style: none;
+        height: 100%;
+    }
+
+    & a {
+        display: block;
+        text-align: center;
+        padding: 0 24px;
+        height: 100%;
+        text-align: center;
+        text-decoration: none;
+    }
+
+
+}
 
 
 /*

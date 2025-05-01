@@ -1,0 +1,10 @@
+header {
+    display: grid;
+    place-items: center;
+    background-color: var(--secundario);
+    height: 72px;
+}
+
+h1 {
+    margin-top: 36px;
+}

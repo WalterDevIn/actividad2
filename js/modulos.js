@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelector("nav").innerHTML = `
     <figure>
-        <img src="#" alt="Logo">
+        <img src="../imagenes/favicon.ico" alt="Logo">
         <figcaption>WiPizzas</figcaption>
     </figure>
     <div class="menu">

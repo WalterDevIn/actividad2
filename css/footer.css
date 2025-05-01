@@ -6,9 +6,15 @@ footer {
     border-top: 2px solid var(--secundario);
     justify-content: space-between;
 
-    & div {
+    & div.redes {
         display: flex;
         align-items: center;
-        grid: 12px;
+        gap: 12px;
+
+    }
+
+    & div.redes a i  {
+        font-size: 1.2em;
+        color: var(--secundario);
     }
 }

@@ -16,7 +16,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: Outfit;
-    width: 450px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }

@@ -1,10 +1,38 @@
 header {
     display: grid;
-    place-items: center;
-    background-color: var(--secundario);
-    height: 72px;
+    place-content: center;
+    background: url(../imagenes/pizzas-rebanaas.webp);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    justify-items: center;
+    color: #000;
 }
 
-h1 {
-    margin-top: 36px;
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+header p {
+    margin: 0;
+    max-width: 300px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+
+header a {
+    border: 2px solid var(--impacto);
+    color: var(--impacto);
+    background-color: var(--secundario);
+    padding: 6px 36px;
+    border-radius: 60px;
+    width: 60px;
+    text-decoration: none;
+    font-family: Outfit;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 12px;
+    font-weight:  1200;
 }

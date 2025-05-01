@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 <li><a href="pizzas.html">pizzas</a></li>
                 <li><a href="contacto.html">contacto</a></li>
             </ul>
-            <a href="#" class="ordenar">Boton Ordenar</a>
+            <a href="#" class="ordenar">Ordenar</a>
         </div>
     </div>
   `;

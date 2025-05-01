@@ -1,6 +1,9 @@
 nav {
+    position: fixed;
+    top: 0;
+    left: 0;
     background-color: var(--primario);
-    width: 100%px;
+    width: 450px;
     height: 72px;
     display: flex;
     justify-content: space-between;

@@ -17,10 +17,43 @@ body {
     margin: 0;
     font-family: Outfit;
     width: 450px;
+    display: flex;
+    flex-direction: column;
 }
 
-h1{
+h1,h2,h3{
     font-family: Boldonse;
 }
 
 
+body.index main {
+    display: flex;
+    flex-direction: column;
+
+    & section.sobre-nosotros {
+        background-color: var(--secundario);
+        font-family: Outfit;
+        font-size: 18px;
+        line-height: 1.5em;
+        padding: 24px 36px;
+    }
+
+    & section.sobre-nosotros img {
+        display: none;
+        width: 450px;
+    }
+
+    & section.sobre-nosotros h1 {}
+
+    & section.sobre-nosotros span {
+        display: inline-block;
+        width: 4ch;
+        height: 1em;
+    }
+
+    & section.destaque {
+        background-color: var(--primario);
+        color: var(--secundario);
+    }
+
+}

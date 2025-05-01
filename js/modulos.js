@@ -1,9 +1,14 @@
 document.addEventListener("DOMContentLoaded", () => {
 
   document.querySelector("nav").innerHTML = `
-    <img src="#" alt="Logo">
+    <figure>
+        <img src="#" alt="Logo">
+        <figcaption>WiPizzas</figcaption>
+    </figure>
     <div class="menu">
-        <div class="toggle"></div>
+        <div class="toggle">
+            <i class="fa-solid fa-bars"></i>
+        </div>
         <div class="menu-content">
             <ul>
                 <li><a href="index.html">inicio</a></li>

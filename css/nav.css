@@ -1,8 +1,7 @@
-@import(./variables.css);
-
 nav {
+    border: 1px solid #333;
     background-color: var(--primario);
-    width: 100%;
+    width: 400px;
     height: 72px;
     display: flex;
     justify-content: space-between;
@@ -10,14 +9,30 @@ nav {
     box-sizing: border-box;
     
     & * {
+        border: 1px solid #333;
         background-color: #eef3; 
     }
 
+    & figure {
+        margin: 0;
+        display: flex;
+        gap: 12px;
+    }
+
+    & figure figcaption {{}}
     & .menu {
         display: flex;
     }
 
     & .toggle {
+        display: grid;
+        place-items: center;
+    }
+
+    & i  {
+        width: 36px;
+        font-size: 36px;
+        text-align: center;
     }
 
     & div.menu-content {
@@ -46,16 +61,13 @@ nav {
 
     & a {
         display: block;
-        text-align: center;
+        text-align: left;
         padding: 0 24px;
         height: 100%;
-        text-align: center;
         text-decoration: none;
     }
 
-
 }
-
 
 /*
 @media () {

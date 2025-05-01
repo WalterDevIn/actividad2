@@ -1,0 +1,14 @@
+footer {
+    display: flex;
+    padding: 0 36px;
+    background-color: var(--primario);
+    color: var(--secundario);
+    border-top: 2px solid var(--secundario);
+    justify-content: space-between;
+
+    & div {
+        display: flex;
+        align-items: center;
+        grid: 12px;
+    }
+}

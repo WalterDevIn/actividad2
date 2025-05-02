@@ -1,0 +1,21 @@
+header {
+    margin-top: 72px;
+    background-color: var(--secundario);
+    height: 216px;
+    display: grid;
+    place-items: center;
+}
+
+main {
+    background-color: var(--secundario);
+    padding: 0 108px;
+
+    & section.texto {
+
+    }
+
+    & section.formulario {
+        display: flex;
+    }
+
+}

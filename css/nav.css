@@ -11,6 +11,10 @@ nav {
     box-sizing: border-box;
     color: var(--secundario);
 
+    & figure img {
+        max-width: 72px;
+    }
+
     & figure {
         margin: 0;
         display: flex;

@@ -104,6 +104,14 @@ body.index main {
 @media (min-width: 500px) {
     body.index main {
 
+        & section.sobre-nosotros {
+            padding: 0 108px;
+        }
+
+        & section.destaque {
+            padding: 0 108px;
+        }
+
         & section.destaque .carrusel div {
             display: flex;
             justify-content: space-between;

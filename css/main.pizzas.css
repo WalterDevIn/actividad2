@@ -1,0 +1,79 @@
+& header {
+    margin-top: 72px;
+    width: 100%;
+    height: 216px;
+    display: grid;
+    place-content: center;
+    background-color: var(--secundario);
+    justify-content: center;
+
+    & h1 {
+        margin: 0;
+        text-align: center;
+    }
+
+    & p {
+        margin: 0;
+        font-size: 1.5em;
+    }
+
+}
+
+main {
+
+    .galeria-pizzas {
+        background-color: var(--primario);
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 48px 108px;  
+        gap: 24px;
+        max-width: calc(100% -216px);
+        box-sizing: border-box;
+    }   
+
+    .pizza figure {
+        transform: scale(1);
+        margin: 0;
+        overflow: hidden;
+    }
+
+    .pizza figure:hover figcaption {
+        z-index: 1;
+        display: flex;
+        box-sizing: border-box;
+        border-radius: 0 0 12px 12px;
+        padding: 12px;
+        background-color: var(--secundario);
+        height: 40%;
+        width: 100%;
+        box-shadow: var(--secundario) 0 0 20px;
+    }
+
+    .pizza figcaption {
+        display: none;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+    img {
+        width: 100%;
+        border-radius: 12px;
+    }
+
+    p {
+        width: 100%;
+        text-align: center;
+        color: var(--secundario);
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+
+}
+
+@media (min-width: 500px) {
+   img {width:28vw;} 
+    .galeria-pizzas {
+        grid-template-columns: 1fr;
+    }    
+}

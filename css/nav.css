@@ -85,7 +85,7 @@ nav {
 }
 
 
-@media (min-height: 500px) {
+@media (min-width: 500px) {
     :root {
         --relleno-lateral: 12px;
     }

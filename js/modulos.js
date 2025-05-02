@@ -11,9 +11,9 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         <div class="menu-content">
             <ul>
-                <li><a href="index.html">inicio</a></li>
-                <li><a href="pizzas.html">pizzas</a></li>
-                <li><a href="contacto.html">contacto</a></li>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="pizzas.html">Pizzas</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
             </ul>
             <a href="#" class="ordenar">Ordenar</a>
         </div>

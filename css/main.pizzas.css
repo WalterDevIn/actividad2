@@ -71,8 +71,11 @@ main {
 
 }
 
-@media (min-width: 500px) {
-   img {width:28vw;} 
+@media (max-width: 500px) {
+    img {
+        width:28vw;
+    }
+
     .galeria-pizzas {
         grid-template-columns: 1fr;
     }    

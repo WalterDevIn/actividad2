@@ -5,16 +5,17 @@ footer {
     color: var(--secundario);
     border-top: 2px solid var(--secundario);
     justify-content: space-between;
-
-    & div.redes {
-        display: flex;
-        align-items: center;
-        gap: 12px;
-
-    }
-
-    & div.redes a i  {
-        font-size: 1.2em;
-        color: var(--secundario);
-    }
 }
+
+footer div.redes {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+
+}
+
+footer div.redes a i  {
+    font-size: 1.2em;
+    color: var(--secundario);
+}
+

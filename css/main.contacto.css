@@ -1,3 +1,9 @@
+*{
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
 header {
     margin-top: 72px;
     background-color: var(--secundario);
@@ -10,68 +16,92 @@ main {
     background-color: var(--secundario);
     padding: 0 108px;
     padding-bottom: 48px;
+}
 
-    & section.texto {
+.texto p {
+    font-size: 18px;
+    line-height: 1.5em;
+    padding: 24px 0;
+}
 
-    }
+.formulario {
+    display: flex;
+}
 
-    & section.texto p {
-        font-size: 18px;
-        line-height: 1.5em;
-        
-    }
+main fieldset {
+    border:  none;
+    display: flex;
+    color: var(--secundario);
+    font-size: 18px;
+    line-height:  1.5em;
+    gap: 48px;
+    margin: 0;
+}
 
-    & section.formulario {
-        display: flex;
-    }
+main label {
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+}
 
-    & fieldset {
-        border:  none;
-        display: flex;
-        color: var(--secundario);
-        font-size: 18px;
-        line-height:  1.5em;
-        gap: 48px;
-        margin: 0;
-    }
-
-    & label {
-        display:flex;
-        width: 100%;
-        flex-direction: column;
-    }
-
-    & input {
-        font-size: 16px;
-        padding: 0 24px;
-        border: none;
-        height: 36px;
+main input {
+    font-size: 16px;
+    padding: 0 24px;
+    border: none;
+    height: 36px;
         background-color: var(--secundario);
-    
-        &:active {
-            outline: none;
-        }
     }
 
-    & textarea {
+    main input:focus {
+        outline: none;
+    }
+    
+    main textarea {
         border: none;
         font-size: 16px;
         padding: 0 12px;
         height: 60px;
         background-color: var(--secundario);
     }
-
-    & section.formulario form {
+    
+    .formulario form {
         background-color: var(--primario);
         width: 100%;
         display: flex;
         flex-direction: column;
+        gap: 18px;
         height: 360px;
+        padding: 12px 24px;
+        
     }
 
-    & input[type="submit"] {
+    main img {
+        width:360px;
+        height:360px; 
+    }
+    
+    main input[type="submit"] {
         align-self: end;
         margin-top: auto;
         margin: 0 12px;
     }
-}
+    
+    @media (max-width: 700px) {
+        main{
+            padding: 48px;
+        }
+        .formulario{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .formulario form fieldset{
+            flex-wrap: wrap;
+        }
+        .formulario form{
+            height: max-content;
+            padding: 12px 12px;
+        }
+        main img{
+            width: 100%;
+        }
+    }
